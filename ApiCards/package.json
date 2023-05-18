@@ -1,0 +1,18 @@
+{
+  "name": "apicards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "msql": "^1.0.3",
+    "mysql": "^2.18.1"
+  }
+}
