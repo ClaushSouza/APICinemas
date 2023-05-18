@@ -6,10 +6,11 @@ app.use(express.json());
 
 // Configuração do banco de dados
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'seu_usuario',
-  password: 'sua_senha',
-  database: 'cinemaproject',
+  host: 'mysql://root:fFvY2cgWCgMF5iI1FeU7@containers-us-west-10.railway.app:5501/railway',
+  user: 'root',
+  password: 'fFvY2cgWCgMF5iI1FeU7',
+  database: 'railway',
+  port: '5501',
 });
 
 // Rotas da API
